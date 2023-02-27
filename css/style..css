@@ -162,10 +162,15 @@ img{
     background-color: var(--primario);
 }
 .cursos{
+
+    list-style: none;
+
+}
+.curso{
     padding: 3rem 0 ;
     border-bottom: 1px solid var(--gris);
-    list-style: none;
 }
+
 @media (min-width: 768px) {
     .curso {
         display: grid;
@@ -216,4 +221,11 @@ img{
     grid-template-columns: repeat(2 , 1fr);
     column-gap: 2rem ;
    }
+}
+.contacto-bg{
+    background-image: url(../imagenes/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }

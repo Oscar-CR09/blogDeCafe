@@ -21,7 +21,7 @@
                 <nav class="navegacion">
                     <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
                     <a href="/index.html" class="navegacion__enlace">Cursos</a>
-                    <a href="/web/contacto.html" class="navegacion__enlace">Contacto</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
 
                 </nav>
             </div>
@@ -32,29 +32,26 @@
         </di>
     </header>
     <mai class="contenedor">
-        <h3 class="centrar-texto">Sobre Nosotros</h3>
-        <div class="sobre-nosotros">
-            <div class="sobrenosotros__imagen">
-                <img src="/imagenes/nosotros.jpg" alt="imagen nosotros">
+        <h3 class="centrar-texto">Contacto</h3>
+        <div class="contacto-bg"></div>
+        <form class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre </label>
+                <input type="text" placeholder="Tu nombre" id="nombre">
             </div>
-            <div class="sobre-nosotros__texto">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, neque. 
-                    Molestias ratione cumque praesentium aut nam numquam aliquid repellendus,
-                    illo blanditiis! Magnam nihil explicabo ad ratione. 
-                    Libero cupiditate quod blanditiis?
-
-                    
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Id laudantium cumque autem eum quam neque commodi ducimus possimus voluptatibus quidem provident, 
-                    quas repellat rerum aliquam dignissimos voluptatum reprehenderit. 
-                    Fuga, aliquid!
-                </p>
+            <div class="campo">
+                <label for="email">E-mail </label>
+                <input type="email" placeholder="Tu E-mail" id="email">
             </div>
-        </div>
-    
+            <div class="campo">
+                <label for="mensaje">Mensaje  </label>
+                <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
+ 
     </mai>
 
     <footer class="footer">
@@ -66,7 +63,7 @@
                 <nav class="navegacion">
                     <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
                     <a href="/index.html" class="navegacion__enlace">Cursos</a>
-                    <a href="/web/contacto.html" class="navegacion__enlace">Contacto</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
     
                 </nav>
             </div>
