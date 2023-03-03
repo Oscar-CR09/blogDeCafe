@@ -68,6 +68,12 @@ img{
     text-align: center;
 }
 /* header */
+.webp .header{
+    background-image: url(../imagenes/banner.webp);
+}
+.no-webp .header{
+    background-image: url(/imagenes/banner.jpg);
+}
 .header{
     background-image: url(/imagenes/banner.jpg);
     height: 68rem;
