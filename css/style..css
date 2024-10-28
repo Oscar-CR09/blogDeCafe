@@ -221,16 +221,35 @@ img{
    .sobre-nosotros{
         display: flex;
         gap: 2rem   ;
+ 
    }
    .sobrenosotros__imagen,
    .sobre-nosotros__texto{
+        display: grid;
         flex-basis: 50%;
+        margin: 1rem,1rem;
+        padding: 1rem,2rem;
+        justify-content: center;
+        align-items: center;
+
    }
    .sobre-nosotros{
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    column-gap: 2rem ;
+    grid-template-columns: repeat(1 , 2fr);
+    margin: 2rem,2rem;
+    padding: 1rem,1rem;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    
    }
+   .sobre-nosotros__texto{
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;    
+}
 }
 .contacto-bg{
     background-image: url(../imagenes/logoimagen1.png);
