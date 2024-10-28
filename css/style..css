@@ -69,13 +69,13 @@ img{
 }
 /* header */
 .webp .header{
-    background-image: url(../imagenes/banner.webp);
+    background-image: url(../imagenes/portada.png);
 }
 .no-webp .header{
-    background-image: url(/imagenes/banner.jpg);
+    background-image: url(/imagenes/portada.png);
 }
 .header{
-    background-image: url(/imagenes/banner.jpg);
+    background-image: url(/imagenes/portada.png);
     height: 68rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -233,8 +233,8 @@ img{
    }
 }
 .contacto-bg{
-    background-image: url(../imagenes/contacto.jpg);
-    height: 40rem;
+    background-image: url(../imagenes/logoimagen1.png);
+    height: 85rem;
     background-size: cover;
     background-repeat: no-repeat;
 
