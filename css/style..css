@@ -2,7 +2,7 @@
     --fuentesHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open Sans', sans-serif;
 
-    --primario:#B7967C;
+    --primario:#f8f9fa;
     --blanco: #EDF0F2;
     --negro:#555451;
     --gris:#DEE1E4;
@@ -13,6 +13,7 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%; 
+    background: #f8f9fa;
     /* 1 rem = 10px */
 }
 *, *:before, *:after {
